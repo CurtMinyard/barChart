@@ -1,0 +1,26 @@
+ body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f9f9f9;
+}
+
+#chart {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  background: rgb(43, 243, 3);
+}
+
+.bar {
+  fill: #847400;
+}
+
+#tooltip {
+  position: absolute;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 6px;
+  border-radius: 4px;
+  pointer-events: none;
+  display: none;
+}
